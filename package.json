@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/oudomm/create-react-tailwind"
   },
-  "homepage": "https://github.com/oudom/create-react-tailwind",
+  "homepage": "https://crt.oudom.dev",
   "bin": {
     "create-react-tailwind": "./bin/index.js"
   },

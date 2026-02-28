@@ -2,6 +2,9 @@
 
 Create a React + TypeScript + Tailwind CSS project in one command.
 
+## Website
+https://crt.oudom.dev
+
 ## Usage
 ```bash
 npx @oudom/create-react-tailwind my-app
