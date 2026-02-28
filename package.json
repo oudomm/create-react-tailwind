@@ -1,6 +1,6 @@
 {
   "name": "@oudom/create-react-tailwind",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Create a React + Tailwind CSS project in one command",
   "repository": {
     "type": "git",
@@ -11,7 +11,14 @@
     "create-react-tailwind": "./bin/index.js"
   },
   "type": "module",
-  "files": ["bin"],
-  "keywords": ["react", "tailwind", "vite", "cli"],
+  "files": [
+    "bin"
+  ],
+  "keywords": [
+    "react",
+    "tailwind",
+    "vite",
+    "cli"
+  ],
   "license": "MIT"
 }
