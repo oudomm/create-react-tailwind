@@ -1,6 +1,6 @@
 {
   "name": "@oudom/create-react-tailwind",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a React + Tailwind CSS project in one command",
   "repository": {
     "type": "git",
