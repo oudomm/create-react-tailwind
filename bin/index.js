@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { execSync } from 'child_process';
+import { execFileSync, execSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 
@@ -15,7 +15,11 @@ const targetDir = path.resolve(process.cwd(), projectName);
 
 console.log(`🚀 Creating ${projectName}...`);
 
-execSync(`printf 'no\nno\n' | npm create vite@latest ${projectName} -- --template react-ts`, { stdio: 'inherit', shell: true });
+execFileSync(
+  process.platform === 'win32' ? 'npm.cmd' : 'npm',
+  ['create', 'vite@latest', projectName, '--', '--template', 'react-ts'],
+  { stdio: 'inherit' }
+);
 
 process.chdir(targetDir);
 
