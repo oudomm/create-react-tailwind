@@ -1,6 +1,6 @@
 {
   "name": "@oudom/create-react-tailwind",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Create a React + Tailwind CSS project in one command",
   "repository": {
     "type": "git",
@@ -8,7 +8,7 @@
   },
   "homepage": "https://crt.oudom.dev",
   "bin": {
-    "create-react-tailwind": "./bin/index.js"
+    "create-react-tailwind": "bin/index.js"
   },
   "type": "module",
   "files": [
